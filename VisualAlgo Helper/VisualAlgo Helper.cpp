@@ -263,7 +263,7 @@ int main()
         vector<int> arr;
         switch (select) {
         case 1: {
-            cout << "Enter Array: " << endl;
+            cout << "Enter Array: (Accepted: [1,2,3,4] or 1,2,3 or 1 2 3)" << endl;
             cin.ignore();
             string input; getline(cin,input);
             str2arr(input, arr);
@@ -271,7 +271,7 @@ int main()
             break;
         }
         case 2: {
-            cout << "Enter Array: " << endl;
+            cout << "Enter Array: (Accepted: [1,2,3,4] or 1,2,3 or 1 2 3)" << endl;
             cin.ignore();
             string input; getline(cin, input);
             str2arr(input, arr);
